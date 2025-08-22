@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.logo-Height {
+  height: 65px;
+  width: 280px;
+}
+#nav {
+  height: 90px;
+  width: 1538px;
+}
+#home-color {
+  color: rgba(201, 12, 222, 0.941);
+}
+
+li {
+  font-weight: 600;
+
+  margin-left: 30px;
+}
+.banner-img {
+  width: 100%;
+}
+.BUTTON {
+  border: 2px solid;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 10px;
+   color: white;
+
+  padding: 8px;
+  background: linear-gradient(to bottom,#8354ce 0%,#9900cc 65%);
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-right: 20px;
+
+}
+.BUTTON a {
+  color: white;
+text-decoration: none;
+}
+.first-section{
+    background:url(./Assets/banner\ section\ 1.webp);
+    padding: 80px;
+    position: relative;
+    z-index: 1;
+}
+.banner-img1{
+    height: 50px;
+    border-radius: 50%;
+    animation: floatandRotate 12s cubic-bezier(0,4,0,0.2,1);
+    transition: all 0.6s cubic-bezier(0.4,0,0.2,1)
+
+}
+floatandRotate animation{
+    transform: translateY();
+}
+.banner-content{
+    max-width: 44px;
+}
+.heading-bold{
+  font-weight: 700;
+  font-size: 60px;
+}
+.call-icon{
+  display: block;
+  width: 36px;
+  margin-left: 220px;
+  margin-top: -38px;
+}
+.SUB{
+  margin-left: 270px;
+  margin-top: -45px;
+}
+.SUB1{
+  margin-left: 270px;
+  margin-top: -10px;
+font-weight: 700;
+}
+.text{
+  color: #9900cc;
+}
